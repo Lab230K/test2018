@@ -1,0 +1,28 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0.5em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+
+canvas {
+  border: 1px solid purple;
+}
+
+p {
+  margin: 0.2em
+}
+
+.chart-container {
+  position: relative;
+  height: 40%;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
