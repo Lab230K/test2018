@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chart.js Starter App</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import Chart.js library via CDN, per Chart.js documentation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js" defer></script>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Chart.js Starter App</h1>
+    <p>
+      A client-side <a href="https://chartjs.org">Chart.js</a> example bar & pie chart showing population by continent.
+    </p>
+    
+    <div class="chart-container">
+      <canvas id="barChart" aria-label="A bar chart showing continental population" role="img">
+      </canvas>
+    </div>
+    <div class="chart-container">
+      <canvas id="pieChart" aria-label="A pie chart showing continental population" role="img">
+      </canvas>
+    </div>
+    
+    <p>
+      Data from <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia</a>, retrieved 1/2/2019
+    </p>    
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
